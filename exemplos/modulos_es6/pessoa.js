@@ -6,6 +6,16 @@ var pessoa = {
     }
 }
 
+var a =10;
+var b = 4;
+
+function soma(){
+    return a+b;
+}
+
 export{
-    pessoa
+    pessoa,
+    soma,
+    a,
+    b
 };
