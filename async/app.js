@@ -21,4 +21,14 @@ for(var i =0; i < 1000; i ++){
 
 //344.075 ms -> Async
 
+//Sync
 
+console.time('Sync');
+for(var i = 0; i < 1000; i++){
+    var data = fs.readFileSync('my_file.txt');
+    console.log('Sync' + data.toString());
+}
+
+console.timeEnd('Sync');
+
+//622.531 ms -> Sync
