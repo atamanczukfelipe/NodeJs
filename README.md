@@ -29,6 +29,27 @@ npm install ts-node-dev --D
 ```
 For installing typescript node dev dependency package
 
+After this 3 first installations it will look like this:
+
+```javascript 
+{
+  "name": "ts-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.24",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.3"
+  }
+}
+```
+
 ```javascript 
  npx tsc app.ts 
 ```
