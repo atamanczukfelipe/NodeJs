@@ -25,6 +25,12 @@ This is for Typescript installation with just Developer Dependency (--D)
 This is for Ts generate js file, where app.ts is the Ts file that you want
 
 ```javascript 
+ npx tsc app.ts --target ES6
+```
+This is for Ts generate js file for ES6 (--target ES6), where app.ts is the Ts file that you want
+
+
+```javascript 
 npm install @types/node
 ```
 This is for node types on ts, install this on the root directory
