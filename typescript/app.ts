@@ -11,7 +11,9 @@ example(b,a);*/
 
 import * as fs from 'fs';
 
-fs.writeFile('arquivo.txt', 'Teste escrita de arquivo', (err)=>{
+var endereco : string = 'Teste 123';
+
+fs.writeFile('arquivo.txt', endereco, (err)=>{
     if (err){
         console.log(err);
     }
