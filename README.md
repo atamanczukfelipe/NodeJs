@@ -29,7 +29,7 @@ npm install ts-node-dev --D
 ```
 For installing typescript node dev dependency package
 
-After this 3 first installations it will look like this:
+After this 3 first installations package.json will look like this:
 
 ```javascript 
 {
