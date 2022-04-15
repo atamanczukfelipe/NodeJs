@@ -15,6 +15,11 @@ Simple NodeJs examples that try to cover most of used things and data structures
 Obs:
 
 ```javascript 
+npm init
+```
+This npm init will create package.json
+
+```javascript 
 npm install typescript --D
 ```
 This is for Typescript installation with just Developer Dependency (--D)
