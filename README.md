@@ -25,6 +25,11 @@ npm install typescript --D
 This is for Typescript installation with just Developer Dependency (--D)
 
 ```javascript 
+npm install ts-node-dev --D
+```
+For installing typescript node dev dependency package
+
+```javascript 
  npx tsc app.ts 
 ```
 This is for Ts generate js file, where app.ts is the Ts file that you want
