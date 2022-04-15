@@ -14,20 +14,21 @@ Simple NodeJs examples that try to cover most of used things and data structures
 
 Obs:
 
-```javascript 
-npm init
-```
 This npm init will create package.json
 
 ```javascript 
-npm install typescript --D
+npm init
 ```
 This is for Typescript installation with just Developer Dependency (--D)
 
 ```javascript 
-npm install ts-node-dev --D
+npm install typescript --D
 ```
 For installing typescript node dev dependency package
+
+```javascript 
+npm install ts-node-dev --D
+```
 
 After this 3 first installations package.json will look like this:
 
@@ -49,19 +50,24 @@ After this 3 first installations package.json will look like this:
   }
 }
 ```
+This is for Ts generate js file, where app.ts is the Ts file that you want
 
 ```javascript 
  npx tsc app.ts 
 ```
-This is for Ts generate js file, where app.ts is the Ts file that you want
+This will execute the Ts file without creating the js file and the need of manual js file execution
+
+```javascript 
+ npx ts-node-dev app.ts
+```
+This is for Ts generate js file for ES6 (--target ES6), where app.ts is the Ts file that you want
 
 ```javascript 
  npx tsc app.ts --target ES6
 ```
-This is for Ts generate js file for ES6 (--target ES6), where app.ts is the Ts file that you want
 
+This is for node types on ts, install this on the root directory
 
 ```javascript 
 npm install @types/node
 ```
-This is for node types on ts, install this on the root directory
